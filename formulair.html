@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Vien ici gros y a pas mieux">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/formulair.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <title>Formulaire</title>
+    </head>
+
+<body>
+    <header>
+
+        <div>
+            <!-- Image ajouter dans le CSS -->
+        </div>
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="javascript.html">JavaScript</a>
+                </li>
+                <li>
+                    <a href="tabler.html">Les Tableau</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.interface3namur.be/">interface3</a>
+                </li>
+                <li>
+                    <a href="Formulair.html">Formulaire</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulaire</h1>
+
+        <section>
+            <h2>veuiller introduire les info</h2>
+            <article>
+                <h3>la balise input</h3>
+
+                <input type="text">
+            </article>
+
+            <article>
+                <h3>mise en place formulair</h3>
+
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>conexion</legend>
+                        <label for="user_name">Nom d'utilisateur</label>
+                        <input type="text" name="user_name" id="user_name">
+
+                        <label for="user_pw">mot de passe</label>
+                        <input type="password" name="user_pw" id="user_pw">
+                    </fieldset>
+                    
+                    <input type="submit" value="envoyer">
+                </form>
+
+            </article>
+
+            <article class="formuler">
+                <h3>utilisation du fieldset</h3>
+
+                <form action="">
+                    <div class="login">
+                        <fieldset>
+                            <legend>Coordonée</legend>
+                            <!-- <label for="userFirstname">prenom</label> -->
+                            <input type="text" name="userFirstname" id="userFirstname" placeholder="Votre Prenom">
+    
+                            <!-- <label for="userLastname">nom</label> -->
+                            <input type="text" name="userLastname" id="userLastname" placeholder="Votre Nom">
+    
+                        </fieldset>
+                    </div>
+                   
+                    <div class="login">
+                        <fieldset>
+                            <legend>message</legend>
+                            <!-- <label for="usermsg">ecrire votre message</label> -->
+                            <input type="textarea" name="usermsg" id="usermsg" placeholder="ecrire votre message">
+                        </fieldset>
+
+                    </div>
+                    
+
+                <input class="submit" type="submit">
+
+                    
+                </form>
+            </article>
+                
+
+        </section>
+    </main>
+
+    <footer>
+        <h2>Information</h2>
+        <p>Realisation au cours de ma formation</p>
+
+        <p><strong>JS FullStack Developper</strong></p>
+        <p><strong>Melis Bryan BestEngeneer FullStack DevTechnology IA </strong>&copy; 2022</p>
+    </footer>
+</body>
+</html>

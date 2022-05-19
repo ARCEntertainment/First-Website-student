@@ -1,0 +1,70 @@
+
+    
+
+input {
+    display: block;
+}
+
+.login {
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px rgb(159, 159, 159);
+    border-radius: 20px;
+    background: radial-gradient(#779c6e, #536e4c);
+    padding: 5px 5px 5px 5px;
+}
+
+form {
+    width: 50%;
+    border: 0px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+
+}
+
+fieldset {
+    margin: 5px;
+    padding: 20px 10px 10px 10px;
+    background-color: rgba(156, 156, 156, 0);
+    border-radius: 20px;
+    border: 0px;
+    
+}
+
+
+.submit {
+    margin: 10px;
+    margin-left: 375px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1em;
+}
+
+input {
+    margin: 0 auto;
+    padding: 0.1em;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+input:focus {
+    outline: none;
+    
+}
+
+label {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+legend {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 5px;
+}
